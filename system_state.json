@@ -1,0 +1,42 @@
+{
+  "cpu": {
+    "percent": 0.0,
+    "cores": 6,
+    "logical_cores": 12,
+    "temperature": null
+  },
+  "memory": {
+    "total": 67335184384,
+    "available": 65641873408,
+    "used": 939716608,
+    "percent": 2.5,
+    "swap_total": 34325131264,
+    "swap_used": 0,
+    "swap_percent": 0.0
+  },
+  "disk": {
+    "total": 467909804032,
+    "used": 34781372416,
+    "free": 409284689920,
+    "percent": 7.8
+  },
+  "network": {
+    "bytes_sent": 4637306542,
+    "bytes_recv": 35501824731,
+    "packets_sent": 8855866,
+    "packets_recv": 28452012,
+    "errors": 0
+  },
+  "process": {
+    "cpu_percent": 0.0,
+    "memory_rss": 653406208,
+    "memory_vms": 4878491648,
+    "threads": 24,
+    "pid": 88734
+  },
+  "models": {
+    "loaded": false,
+    "last_check": "2025-04-01T15:30:01.221639"
+  },
+  "timestamp": "2025-04-01T15:30:01.237853"
+}

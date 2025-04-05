@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-04-01T18:22:28.716138",
+  "system": {
+    "platform": "Linux-5.15.0-131-generic-x86_64-with-glibc2.35",
+    "python_version": "3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0]",
+    "processor": "x86_64",
+    "node": "Ubuntu-2204-jammy-amd64-base",
+    "ram": {
+      "total": 67335184384,
+      "available": 66018525184,
+      "used": 563085312,
+      "percent": 2.0
+    },
+    "disk": {
+      "total": 467909804032,
+      "free": 408762830848,
+      "used": 35303231488,
+      "percent": 7.9
+    },
+    "cpu": {
+      "cores": 6,
+      "logical_cores": 12,
+      "percent": 0.0
+    },
+    "uptime": {
+      "boot_time": "2025-03-27T18:49:35",
+      "days": 4,
+      "hours": 23,
+      "minutes": 32
+    }
+  },
+  "application": {
+    "env": "development",
+    "database": {
+      "exists": true,
+      "info": {
+        "tables": [
+          "knowledge",
+          "cache",
+          "pdf_files",
+          "pdf_cache",
+          "unanswered_questions",
+          "sqlite_sequence",
+          "analytics_events",
+          "analytics_daily_stats",
+          "analytics_user_stats",
+          "analytics_query_stats"
+        ],
+        "counts": {
+          "knowledge": 0,
+          "cache": 0,
+          "pdf_files": 0,
+          "pdf_cache": 0,
+          "unanswered_questions": 0,
+          "sqlite_sequence": 0,
+          "analytics_events": 0,
+          "analytics_daily_stats": 1,
+          "analytics_user_stats": 0,
+          "analytics_query_stats": 0
+        },
+        "size": 102400
+      }
+    },
+    "model": {
+      "exists": true,
+      "path": "/root/mistral-7b-instruct-v0.3.Q4_K_M.gguf",
+      "size": 4372812000
+    },
+    "faiss_index": {
+      "exists": []
+    },
+    "pdf_index": {
+      "exists": []
+    },
+    "admin_ids": [
+      5264945340
+    ]
+  },
+  "network": {
+    "hostname": "Ubuntu-2204-jammy-amd64-base",
+    "ip_address": "135.181.6.167",
+    "interfaces": {
+      "lo": [
+        "127.0.0.1"
+      ],
+      "enp35s0": [
+        "135.181.6.167"
+      ]
+    },
+    "stats": {
+      "bytes_sent": 4855912117,
+      "bytes_recv": 35604523583,
+      "packets_sent": 9624024,
+      "packets_recv": 29195216,
+      "errin": 0,
+      "errout": 0
+    },
+    "connectivity": {
+      "huggingface": true,
+      "github": true,
+      "google": true
+    }
+  },
+  "pdf": {
+    "exists": true,
+    "directory": "/root/data/pdf_docs",
+    "files_count": 0,
+    "files": {},
+    "db_info": {
+      "total_records": 0,
+      "indexed": 0
+    }
+  }
+}
